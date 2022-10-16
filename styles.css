@@ -532,7 +532,7 @@ footer {
   }
   .item2Id{
     width:300px;
-    height:"700px";
+    height:700px;
   }
   .con4 {
     display: grid;
@@ -575,7 +575,7 @@ footer {
    }
    #topButtons{
     background-color: var(--secondaryColor);
-    margin: 27PX 330PX 0PX 0px;
+    margin: 27PX 250PX 0PX 0px;
     position: absolute;
     display: grid;
     justify-content: space-between;
@@ -618,9 +618,13 @@ footer {
     margin-bottom: -500px;
     margin-left: 10px;
   }
+  .item2Id{
+    width:250px;
+    height:700px;
+  }
   .con2 {
     display: grid;
-    height: 1800px;
+    height: 2000px;
     width: 200px;
     padding-right: 480px;
     padding-left: 10px;
