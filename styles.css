@@ -290,6 +290,19 @@ footer {
     width:400px;
     height:"900px";
   }
+  footer{
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+  }
+  .foot2 ul {
+    display: flex;
+    column-gap: 100px;
+    margin-right: 200px;
+    margin-top: 10px;
+  }
+  .foot2:nth-child(1) > div > ul > li {
+    font-size: .9rem;
+  } 
 }
 /*Desktops of higher resolution desktops 1281px*/
 @media (min-width: 1281px) {
@@ -297,6 +310,10 @@ footer {
     margin: 0;
     padding:0px;
    }
+   .child1{
+    width:700px;
+    height: 400px;
+  }
   .item2Id{
     width:350px;
     height:"850px";
@@ -305,6 +322,32 @@ footer {
     position: relative;
     bottom: 250px;
   }
+  .con4 {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .containOne {
+    height: 350px;
+    width: 500px;
+    padding-top: 80px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  footer{
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+  }
+  .foot2 ul {
+    display: flex;
+    column-gap: 100px;
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+  .foot2:nth-child(1) > div > ul > li {
+    font-size: .9rem;
+  } 
  }
 /*Laptops, Desktops  media query*/
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -322,10 +365,10 @@ footer {
     bottom: 10px;
   }
   .child1{
-    width:450px;
+    width:600px;
     height: 350px;
   }
-  .items2 {
+  .items2{
     display: grid;
     margin-bottom: 0px;
     margin-left: 10px;
@@ -342,10 +385,31 @@ footer {
     bottom: 250px;
   }
   .con4 {
-    display: grid;
+    display: flex;
     height: 800px;
-    margin-left: -100px;
+    justify-content: center;
   }
+  .containOne {
+    height: 300px;
+    padding-top: 80px;
+    font-size: 20px;
+    margin-top: 5px;
+   
+  }
+  footer  {
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+  }
+.foot2 ul {
+  display: flex;
+  column-gap: 80px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.foot2:nth-child(1) > div > ul > li {
+  font-size: .8rem;
+} 
 }
 /*Tablets and Ipads media query*/
 @media (min-width: 768px) and (max-width: 1024px) { 
@@ -412,25 +476,36 @@ footer {
     bottom: 250px;
   }
   .con4 {
-    display: grid;
+    display: flex;
     height: 800px;
-    margin-left: -100px;
+    justify-content: center;
+    padding-left:0px;
+    padding-top: 40px;
   }
   .containOne {
     height: 300px;
-    width: 300px;
-    justify-content: center;
-    margin-top: 0px;
-    margin-right: -10px;
+    width: 350px;
+    margin-right: 10px;
+    font-size: 15px;
   }
   #logoos{
     position: relative;
     top: 10px;
   }
+  footer{
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+  }
   .foot2 ul {
     display: flex;
-    column-gap: 20px;
+    column-gap: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
   }
+  .foot2:nth-child(1) > div > ul > li {
+    font-size: .8rem;
+  } 
 }
 /* Mobile media query */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -440,7 +515,7 @@ footer {
    }
 #topButtons{
     background-color: var(--secondaryColor);
-    margin: 0PX 0PX 0PX 0px;
+    margin: 0PX 4PX 0PX 0px;
     position: absolute;
     display: grid;
     justify-content: space-between;
@@ -532,7 +607,7 @@ footer {
   }
   .item2Id{
     width:300px;
-    height:700px;
+    height:"700px";
   }
   .con4 {
     display: grid;
@@ -552,8 +627,8 @@ footer {
   }
   footer  {
    height: 100px;
-    padding: 10px 10px 10px 10px;
-    margin: 0px;
+   padding: 10px 10px 10px 10px;
+   margin-bottom: 0px;
   }
   #logoos{
     position: relative;
@@ -575,7 +650,7 @@ footer {
    }
    #topButtons{
     background-color: var(--secondaryColor);
-    margin: 27PX 250PX 0PX 0px;
+    margin: 27PX 330PX 0PX 0px;
     position: absolute;
     display: grid;
     justify-content: space-between;
@@ -596,7 +671,7 @@ footer {
   }
   .child1{
     background-color: var(--secondaryColor);
-    width:350px;
+    width:310px;
     height: 400px;
     border-top-right-radius: 160px;
   }
@@ -609,8 +684,8 @@ footer {
   }
   #p {
     display: grid;
-    width: 70%;
-    height: 30px;
+    width: 55%;
+    height: 50px;
     font-size: 1rem;
   }
   .items2 {
@@ -618,13 +693,9 @@ footer {
     margin-bottom: -500px;
     margin-left: 10px;
   }
-  .item2Id{
-    width:300px;
-    height:600px;
-  }
   .con2 {
     display: grid;
-    height: 2000px;
+    height: 1800px;
     width: 200px;
     padding-right: 480px;
     padding-left: 10px;
@@ -636,7 +707,7 @@ footer {
     display: grid;
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 65%;
     margin: -10px 0px 20px 0px; 
   }
   .con3 {
@@ -673,7 +744,7 @@ footer {
   footer  {
     display: grid;
     background-color: var(--secondaryColor);
-    height: 130px;
+    height: 150px;
     width: 500px;
     padding: 10px 3px 10px 10px;
     margin: 0px;
